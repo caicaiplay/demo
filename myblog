@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	<title>DOCUMENT</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+	<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+	<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+	<header> <!--巨幕背景-->		
+		<div class="head">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-author">
+							<a href="#"><img id="author" src="img/ymm.png"></a>
+							<h2>Bess's Blog</h2>
+							<div id="nav1">
+							<a href="index.html">博客主页</a>
+							<a href="http://blog.dandyweng.com">随笔</a>
+							<a href="https://showcc.github.io">相册</a>
+							<a data-toggle="modal" href="#myModal">关于我</a>
+							<!-- 模态框（Modal） -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h3 class="modal-title" id="myModalLabel">杨小喵</h3>
+										</div>
+										<div class="modal-body" style="text-align: left"><p>杨小喵，是我对女朋友的爱称。</p>
+											<p>闲来无事，偶然有机会看到翁天信在同济大学的演讲，颇受启发，一个从没上过学，一路自学的18岁少年，12年来没像同龄人一样上课，听课考试。只是由着性子晃荡在这个花花世界，学期所好。</p> 
+										<p>马儿本就该驰骋草原，青春本就是自由的！无限青春的梦，翁天信用自己的方式，书写出与众不同。</p>
+										<p>所以我也自学一次，就从前端开发开始吧，为给杨小喵做个blog，我先后自学了css3，HTML5，javascript，jQuery等。本站为鄙人的处女作，还请各位看官多多指教，谢谢！</p></div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+										</div>
+									</div><!-- /.modal-content -->
+								</div><!-- /.modal -->
+							</div>
+							</div>
+									<ul class="list-inline">
+										<li><a href="https://github.com"><img src="img/github.png" title="Github"></a></li>
+										<li><a href="https://www.zhihu.com"><img src="img/zhihu.png" title="知乎"></a></li>
+										<li><a href="https://wx.qq.com/"><img src="img/weixin.png" title="微信"></a></li>
+										<li><a href="https://www.baidu.com"><img src="img/dianhua.png" title="手机号码"></a></li>
+									</ul>
+								</div>
+								<div class="hrb">
+									<p class="text-info">开开心心过好每一天！（吃饱就睡，没心没肺0.0）</p>
+									<p class="pull-right"><cite title="Source Title">---杨小瞄</cite></p>
+								</div>
+								<i class="hidden fa fa-angle-double-down fa-3x"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header -->
+			<div class="container"> <!--content-->
+				<div class="row section">
+					<div class="col-lg-12">				
+						<h2>嘿，北方姑娘!<span class="label label-primary time pull-right">2018-4-11</span></h2>
+						<div class="hra"></div>				
+						<p class="visible-xs">嘿，北方姑娘!......</p>
+						<div class="caption hidden-xs">
+							<div>
+								<p class="pull-right">嘿，北方姑娘!</p><img class="pull-left" src="img/beifang.png"></div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment">评论<span class="badge">44</span></li>
+								<li class="label label-danger">收藏<span class="badge">66</span></li>
+								<li class="label label-success">点赞<span class="badge">71</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment" class="collapse pull-left comment">
+								<form role="form">
+									<div class="form-group">
+										<label for="name">说几句呗......</label>
+										<textarea class="form-control" rows="3" placeholder="留下您的足迹" id="name" disabled></textarea>
+										<button type="submit" class="btn btn-default pull-right btnm">评论</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row section">
+						<div class="col-lg-12">
+							<h2>惊闻<span class="label label-primary time pull-right">2018-4-8</span></h2>				
+							<div class="hra"></div>
+
+							<p class="visible-xs">最恨惊闻，彼城雨又绵，不得亲执伞，遮却新寒......</p>
+							<div class="caption hidden-xs">
+								<div>
+									<p class="pull-left">最恨惊闻，彼城雨又绵，不得亲执伞，遮却新寒。</p><img class="pull-right" src="img/beij.png">
+								</div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment2">评论<span class="badge">88</span></li>
+								<li class="label label-danger">收藏<span class="badge">34</span></li>
+								<li class="label label-success">点赞<span class="badge">99</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment2" class="collapse pull-right comment">
+								<form role="form">
+									<div class="form-group">
+										<label for="name2">说几句呗......</label>
+										<textarea class="form-control" id="name2" placeholder="留下您的足迹" rows="3" disabled></textarea>
+										<button type="submit" class="btn btn-default pull-right btnm">评论</button>
+									</div>						
+								</form>
+							</div>
+						</div>
+					</div>		
+					<div class="row section">
+						<div class="col-lg-12">
+							<h2>潘安湖<span class="label label-primary time pull-right">2018-4-5</span></h2>				
+							<div class="hra"></div>			
+							<p class="visible-xs">潘安湖......</p>
+							<div class="caption hidden-xs">
+								<div>
+									<p class="pull-right">潘安湖。</p><img class="pull-left" src="img/shubian.png">
+								</div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment3">评论<span class="badge">88</span></li>
+								<li class="label label-danger">收藏<span class="badge">34</span></li>
+								<li class="label label-success">点赞<span class="badge">99</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment3" class="collapse comment pull-right">
+								<form role="form">
+									<div class="form-group">
+										<label for="name3">说几句呗......</label>
+										<textarea id="name3" class="form-control" placeholder="留下您的足迹" rows="3" disabled></textarea>
+										<button type="submit" class="btn btn-default btnm pull-right">评论</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>		
+					<div class="row section">
+						<div class="col-lg-12">
+							<h2>愚人节<span class="label label-primary time pull-right">2018-4-1</span></h2>				
+							<div class="hra"></div>
+
+							<p class="visible-xs">笑得像个120斤的孩子......</p>
+							<div class="caption hidden-xs">
+								<div>
+									<p class="pull-left">笑得像个120斤的孩子。</p><img class="pull-right" src="img/haizi.png">
+								</div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment4">评论<span class="badge">48</span></li>
+								<li class="label label-danger">收藏<span class="badge">34</span></li>
+								<li class="label label-success">点赞<span class="badge">99</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment4" class="collapse pull-right comment">
+								<form role="form">
+									<div class="form-group">
+										<label for="name2">说几句呗......</label>
+										<textarea class="form-control" id="name2" placeholder="留下您的足迹" rows="3" disabled></textarea>
+										<button type="submit" class="btn btn-default pull-right btnm">评论</button>
+									</div>						
+								</form>
+							</div>
+						</div>
+					</div>		
+					<div class="row section">
+						<div class="col-lg-12">
+							<h2>女神<span class="label label-primary time pull-right">2018-3-18</span></h2>				
+							<div class="hra"></div>					
+							<p class="visible-xs">哇，女神......</p>
+							<div class="caption hidden-xs">
+								<div>
+									<p class="pull-right">哇，女神，--其实是女神经--（逃。。。。）。</p><img class="pull-left" src="img/nvshen.png">
+								</div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment5">评论<span class="badge">88</span></li>
+								<li class="label label-danger">收藏<span class="badge">34</span></li>
+								<li class="label label-success">点赞<span class="badge">99</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment5" class="collapse pull-right comment">
+								<form role="form">
+									<div class="form-group">
+										<label for="name2">说几句呗......</label>
+										<textarea class="form-control" id="name2" placeholder="留下您的足迹" rows="3" disabled></textarea>
+										<button type="submit" class="btn btn-default pull-right btnm">评论</button>
+									</div>						
+								</form>
+							</div>
+						</div>
+					</div>		
+					<div class="row section">
+						<div class="col-lg-12">
+							<h2>贤惠<span class="label label-primary time pull-right">2018-3-9</span></h2>				
+							<div class="hra"></div>
+
+							<p class="visible-xs">时间女朋友这么贤惠.....</p>
+							<div class="caption hidden-xs">
+								<div>
+									<p class="pull-left">时间女朋友这么贤惠。</p><img class="pull-right" src="img/xianhui.png">
+								</div>
+							</div>
+							<div class="hra"></div>
+							<ul>
+								<li class="label label-info" data-toggle="collapse" data-target="#comment6">评论<span class="badge">88</span></li>
+								<li class="label label-danger">收藏<span class="badge">34</span></li>
+								<li class="label label-success">点赞<span class="badge">99</span></li>
+							</ul>
+							<button class="btn btn-info btn-sm pull-right">展开全文>></button>
+							<div id="comment6" class="collapse pull-right comment">
+								<form role="form">
+									<div class="form-group">
+										<label for="name2">说几句呗......</label>
+										<textarea class="form-control" id="name2" placeholder="留下您的足迹" rows="3" disabled></textarea>
+										<button type="submit" class="btn btn-default pull-right btnm">评论</button>
+									</div>						
+								</form>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="pager_1">
+					<ul class="pagination pagination-sm pagination_a">
+						<li><a href="#">&laquo;</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+<!--<div id="sidebar"><ul>
+	<li>1</li>
+	<li>1</li>
+	<li>1</li>
+	<li>1</li>
+</ul> 
+</div>
+<div id="entry">
+	<textarea>wew </textarea>
+</div>
+<button id="sidebar_tigger" class="btn btn-success">dianjin</button>
+<button id="sidebar_tigger1" class="btn btn-success">dianjin</button>-->
+<div id="return" class="hidden-xs" title="返回顶部"><i class="fa fa-angle-double-up fa-3x" aria-hidden="true"></i></div>
+<div class="footer copy">&copy 杨小喵 - 2018.12.25
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>					
