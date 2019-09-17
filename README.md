@@ -1,2 +1,2 @@
-# demo
-gerenblog
+#demo
+myblog
